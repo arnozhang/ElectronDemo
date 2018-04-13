@@ -1,0 +1,24 @@
+/**
+ * DemoProject project.
+ *
+ * @author muqin.zyf
+ * @date 2018/01/12
+ */
+
+body {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+a.plain-link {
+    text-decoration: none;
+}
+
+a.plain-link:hover {
+    text-decoration: none;
+}
+
+#react_container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}

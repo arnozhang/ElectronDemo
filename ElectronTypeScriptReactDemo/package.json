@@ -1,0 +1,25 @@
+{
+  "name": "simpleelectrondemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "muqin.zyf",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.7.10",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.34",
+    "@types/react-dom": "^16.0.3",
+    "ts-loader": "^3.2.0"
+  }
+}
+

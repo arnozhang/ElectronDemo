@@ -1,0 +1,38 @@
+{
+    "name": "DemoProject",
+    "version": "1.0.0",
+    "description": "This is Electron app template project: DemoProject",
+    "main": "./dist/build/index.js",
+    "scripts": {
+        "compile": "tsc",
+        "build": "webpack",
+        "build-release": "webpack --define process.env.NODE_ENV='\"release\"'",
+        "start": "electron .",
+        "package": "electron-packager ./ DemoProject --overwrite --app-version=1.0.0 --platform=darwin --arch=all --out=../DemoProject --version=1.6.3 --icon=./public/images/app-icon.icns"
+    },
+    "keywords": [
+        "DemoProject",
+        "electron-app",
+        "electron",
+        "react"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "electron": "^1.7.10",
+        "electron-reload": "^1.2.2",
+        "jquery": "^3.2.1",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0"
+    },
+    "devDependencies": {
+        "@types/jquery": "^3.2.17",
+        "@types/node": "^8.5.7",
+        "@types/react": "^16.0.34",
+        "@types/react-dom": "^16.0.3",
+        "css-loader": "^0.28.8",
+        "source-map-loader": "^0.2.3",
+        "style-loader": "^0.19.1",
+        "ts-loader": "^3.2.0",
+        "webpack": "^3.10.0"
+    }
+}
